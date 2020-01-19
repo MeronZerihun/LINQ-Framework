@@ -1,0 +1,22 @@
+﻿@model IEnumerable<TestApp.Models.Quote>
+
+@{
+    ViewBag.Title = "My Quote";
+}
+<h2>My Quote</h2>
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.authorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.body)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.entryDate)
+        </th>
+    </tr>
+</table>

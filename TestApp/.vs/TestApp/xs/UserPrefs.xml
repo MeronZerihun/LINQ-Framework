@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{91BA2A29-1D37-4DEA-9C7E-C823C88B271E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/Views/Quote/Create.cshtml">
+    <Files>
+      <File FileName="TestApp/Controllers/QuoteController.cs" Line="39" Column="17" />
+      <File FileName="TestApp/Web.config" />
+      <File FileName="TestApp/packages.config" />
+      <File FileName="TestApp/Views/Shared/_Layout.cshtml" />
+      <File FileName="TestApp/Context/QuoteContext.cs" Line="1" Column="1" />
+      <File FileName="TestApp/Models/Quote.cs" Line="10" Column="41" />
+      <File FileName="TestApp/Views/Web.config" />
+      <File FileName="TestApp/Views/Quote/Index.cshtml" Line="1" Column="1" />
+      <File FileName="TestApp/Views/Home/Index.cshtml" />
+      <File FileName="TestApp/Views/_ViewStart.cshtml" />
+      <File FileName="TestApp/Views/Quote/Create.cshtml" Line="13" Column="9" />
+      <File FileName="TestApp/Controllers/HomeController.cs" />
+      <File FileName="TestApp/Views/Quote/Edit.cshtml" Line="19" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestApp" expanded="True">
+            <Node name="TestApp" expanded="True">
+              <Node name="Context" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Quote" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../TestApp/Models/Quote.cs" line="23" offsetX="-1" offsetY="-1" expression="counter" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TestApp PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

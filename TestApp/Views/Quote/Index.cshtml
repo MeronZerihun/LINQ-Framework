@@ -1,0 +1,18 @@
+﻿@model IEnumerable<TestApp.Models.Quote>
+
+@{
+    ViewBag.Title = "My Quote";
+}
+<h2>My Quote</h2>
+
+@foreach (var quote in Model)
+    {
+        <div class="jumbotron">
+            <p class="mb-0 display-4"> @Html.DisplayFor(model => quote.body) </p>
+            <footer class="blockquote-footer"><cite title="Source Title"> @Html.DisplayFor(model => quote.authorName) </cite></footer>
+            <p class="small"> @Html.DisplayFor(model =>quote.entryDate) </p>
+            <br>
+            <a href="@Url.Action("Edit","Quote",new{ id = quote.QuoteId})" class="btn btn-secondary">Edit</a>
+            <a href="@Url.Action("Delete","Quote",new{ id = quote.QuoteId})" class="btn btn-danger">Delete</a>
+        </div>
+    }
